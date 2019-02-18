@@ -1,0 +1,394 @@
+@charset "utf-8";
+/*CSS Document*/
+
+* {margin: 0; padding: 0;}
+body {
+	background-image: url(images/bg.jpg);
+	font-family: arial, helvetica, sans-serif;
+	color: #666;
+}
+#wrapper {
+	width: 935px;
+	margin: 0 auto 0 auto;
+}
+
+#header {width: 935px; background-color: #4a4a4a; overflow: hidden; height: 180px; position: relative;}
+#subHeader {width: 865px; margin: auto;}
+
+#headerLeft {width: 200px; float: left; display: block;}
+#headerLeft h1 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 45px;
+	color: #a9a9a9;
+	padding-left: 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+#headerLeft h1 .span {color: #ffa322;}
+
+#headerRight {
+	width: 200px;
+	float: right; 
+	display: block;
+	padding-top: 28px;
+	padding-bottom: 10px;
+}
+#headerRight a {
+	font-family: 'Oswald', sans-serif; 
+	font-size: 15px;
+	text-decoration: none;
+	color: #ffa322;
+}
+#headerRight p {color: #a9a9a9; font-family: arial, serif; font-size: 12px;}
+#headerRight p .span {color: #ffa322;}
+
+#nav {
+	width: 865px;
+	margin: auto;
+	background-color: #ff8f0b;
+	position: absolute;
+	bottom: 38px;
+	left: 31px;
+}
+#nav ul {list-style: none; display: flex;}
+#nav ul li {margin: auto;}
+#nav ul li a {
+	font-size: 12px;
+	text-decoration: none;
+	color: black;
+	font-family: 'Oswald', sans-serif;
+	padding: 15px 20px 15px 20px; 
+	display: block;
+}
+#nav ul li a:hover {color: white;}
+/* END OF HEADER */
+
+
+
+
+/*ARTICLE ABOUT-US*/
+#content-about {
+	width: 935px; 
+	overflow: hidden;
+	background-image: url(images/content-holder-bg.png);
+}
+#about-article {width: 865px; margin: auto;}
+.about-articleTop {width: 865px;}
+.about-articleTop h3 {color: black; margin: 10px 0 10px 0}
+.about-articleTop ul {display: flex; background-color: silver}
+.about-articleTop ul li {list-style: none; padding: 5px;}
+.about-articleTop a {
+	text-decoration: none;
+	color: grey;
+	font-size: 12px;
+}
+.about-articleTop .about-articleTop-color {color: orange;}
+
+.about-articleBottom {width: 865px;}
+.about-articleBottom .about-articleBottomLeft {width: 500px; float: left;}
+.about-articleBottom .about-articleBottomLeft h3 {border-bottom: 1px solid silver; padding: 30px 0 5px 0; color: black; font-family: 'Oswald', sans-serif;}
+.about-articleBottom .about-articleBottomLeft img {float: left; width: 300px; height: 200px; margin: 20px 10px 10px 0;}
+.about-articleBottom .about-articleBottomLeft h4 {font-weight: bold; font-size: 12px; color: black; margin: 15px 0 10px 0; font-family: 'Oswald', sans-serif;}
+.about-articleBottom .about-articleBottomLeft p {font-size: 10px;}
+
+.about-articleBottom .about-articleBottomRight  {width: 314px; float: right;}
+.about-articleBottom .about-articleBottomRight h3 {border-bottom: 1px solid silver; padding: 30px 0 5px 0; color: black; font-family: 'Oswald', sans-serif;}
+.about-articleBottom .about-articleBottomRight h4 {font-weight: bold; font-size: 12px; color: black;  margin: 15px 0 10px 0; font-family: 'Oswald', sans-serif;}
+.about-articleBottom .about-articleBottomRight p {font-size: 10px;}
+.about-articleBottom .about-articleBottomRight span {
+	background: orange; 
+	font-size: 20px; 
+	padding: 4px 10px;
+	border-radius: 25px 25px 25px 25px;
+	color: white;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+.about-team {width: 865px; overflow: hidden;}
+.about-team h3 {border-bottom: 1px solid silver; padding: 50px 0 5px 0; color: black; font-family: 'Oswald', sans-serif;}
+.about-team .about-team1 {width: 144px; float: left;}
+.about-team .about-team1 img {width: 130px; height: 120px; margin-top: 20px;}
+.about-team .about-team1 h4 {font-size: 12px; color: black; padding: 10px 0 10px 0;}
+.about-team .about-team1 p {font-size: 10px; margin-bottom: 20px;}
+/*END OF ARTICLE ABOUT-US*/
+
+
+
+/*ARTICLE SERVICE*/
+#content-service {
+	width: 935px;
+	height: 830px;
+	overflow: hidden;
+	background-image: url(images/content-holder-bg.png);
+}
+#service-article {width: 865px; margin: auto;}
+.service-articleTop {width: 865px;}
+.service-articleTop h3 {color: black; margin: 10px 0 10px 0}
+.service-articleTop ul {display: flex; background-color: silver}
+.service-articleTop ul li {list-style: none; padding: 5px;}
+.service-articleTop a {
+	text-decoration: none;
+	color: grey;
+	font-size: 12px;
+}
+.service-articleTop .service-articleTop-color {color: orange;}
+
+.service-articleBottom {width: 865px; overflow: hidden;}
+.service-articleBottom h3 {border-bottom: 1px solid silver; padding: 30px 0 5px 0; margin-bottom: 20px; color: black; font-family: 'Oswald', sans-serif;}
+.service-articleBottom .service1 {width: 268px; height: 300px; background-color: white; float: left; margin: 10px 10px 10px 10px;  box-shadow: 0px 0px 5px 1px grey;}
+.service-articleBottom .service1 img {width: 268px; height: 160px;}
+.service-articleBottom .service1 h4 {font-size: 12px; color: black; font-family: 'Oswald', sans-serif; padding: 15px 0px 10px 15px;}
+.service-articleBottom .service1 p {font-size: 11px; padding: 0px 0px 10px 15px;}
+/*END OF ARTICLE SERVICE*/
+
+
+
+/*ARTICLE BLOG*/
+#content-blog {
+	width: 935px;
+	height: 1310px;
+	overflow: hidden;
+	background-image: url(images/content-holder-bg.png);
+}
+#blog-article {width: 865px; margin: auto;}
+.blog-articleTop {width: 865px;}
+.blog-articleTop h3 {margin: 10px 0 10px 0}
+.blog-articleTop ul {display: flex; background-color: silver}
+.blog-articleTop ul li {list-style: none; padding: 5px;}
+.blog-articleTop a {
+	text-decoration: none;
+	color: grey;
+	font-size: 12px;
+}
+.blog-articleTop .blog-articleTop-color {color: orange;}
+
+.blog-articleBottom {width: 865px; overflow: hidden;}
+.blog-articleBottom .blog-blogLeft {width: 550px; float: left;}
+.blog-articleBottom .blog-blogLeft .blog-blogLeft1 {width: 500px; margin-top: 20px;}
+.blog-articleBottom .blog-blogLeft .blog-blogLeft1 .blog-Leftatas {margin-top: 20px;}
+.blog-articleBottom .blog-blogLeft .blog-blogLeft1 .blog-Leftatas h3 {
+	color: black; 
+	border-bottom: 1px solid silver;
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+}
+.blog-articleBottom .blog-blogLeft .blog-blogLeft1 .blog-Leftatas img {width: 200px; float: left; margin-right: 10px;}
+.blog-articleBottom .blog-blogLeft .blog-blogLeft1 .blog-Leftatas p {font-size: 12px; padding-bottom: 15px;}
+.blog-articleBottom .blog-blogLeft .blog-blogLeft1 .blog-Leftatas a {
+	text-decoration: none;
+	font-size: 15px;
+	font-family: 'Oswald', sans-serif; 
+	padding: 5px 10px;
+	background-color: orange;
+	color: white;
+}
+
+.blog-articleBottom .blog-blogLeft .blog-blogLeft1 .blog-Leftbawah {margin-top: 50px;}
+.blog-articleBottom .blog-blogLeft .blog-blogLeft1 .blog-Leftbawah ul {border-top: 1px solid silver; border-bottom: 1px solid silver; margin-bottom: 30px;}
+.blog-articleBottom .blog-blogLeft .blog-blogLeft1 .blog-Leftbawah ul li {
+	list-style: none; 
+	display: inline;
+	padding-right: 15px;
+	font-size: 12px;
+}
+
+.blog-articleBottom .blog-blogRight {width: 315px; float: right;}
+.blog-articleBottom .blog-blogRight .blog-blogRight1 {width: 315px; margin-top: 20px; margin-bottom: 35px;}
+.blog-articleBottom .blog-blogRight .blog-blogRight1 h3 {
+	color: black; 
+	border-bottom: 1px solid silver;
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+}
+.blog-articleBottom .blog-blogRight .blog-blogRight1 ul {}
+.blog-articleBottom .blog-blogRight .blog-blogRight1 ul li {font-size: 12px;}
+.blog-articleBottom .blog-blogRight .blog-blogRight1 .blog-right1 {margin-top: 40px;}
+.blog-articleBottom .blog-blogRight .blog-blogRight1 .blog-right1 img {width: 100px; float: left; margin-right: 10px;}
+.blog-articleBottom .blog-blogRight .blog-blogRight1 .blog-right1 h4 {}
+.blog-articleBottom .blog-blogRight .blog-blogRight1 .blog-right1 p {font-size: 12px;}
+
+.blog-articleBottom .blog-blogRight .blog-blogRight1 .blog-commentsTop img {float: left; margin-right: 15px;}
+.blog-articleBottom .blog-blogRight .blog-blogRight1 .blog-commentsTop .admin1 {color: orange; font-size: 12px; margin-bottom: 10px;}
+.blog-articleBottom .blog-blogRight .blog-blogRight1 .blog-commentsTop p {font-size: 15px; color: black; margin-bottom: 15px;}
+.blog-articleBottom .blog-blogRight .blog-blogRight1 .blog-commentsBottom {padding-bottom: 10px; padding-top: 15px; margin-bottom: 20px;}
+.blog-articleBottom .blog-blogRight .blog-blogRight1 .blog-commentsBottom p {font-size: 12px;}
+
+
+
+
+
+/*END OF ARTICLE BLOG*/
+
+
+
+/*ARTICLE PROJECT*/
+#contentproject- {
+	width: 935px;
+	height: 1230px;
+	overflow: hidden;
+	background-image: url(images/content-holder-bg.png);
+}
+#project-article {width: 865px; margin: auto;}
+.project-articleTop {width: 865px;}
+.project-articleTop h3 {color: black; margin: 10px 0 10px 0}
+.project-articleTop ul {display: flex; background-color: silver}
+.project-articleTop ul li {list-style: none; padding: 5px;}
+.project-articleTop a {
+	text-decoration: none;
+	color: grey;
+	font-size: 12px;
+}
+.project-articleTop .project-articleTop-color {color: orange;}
+
+.project-articleBottom {width: 865px; overflow: hidden;}
+.project-articleBottom .nav-project {float: right; margin-top: 40px; margin-bottom: 15px;}
+.project-articleBottom .nav-project ul {display: flex;}
+.project-articleBottom .nav-project ul li {
+	font-size: 12px; 
+	font-weight: bold; 
+	list-style: none; 
+	color: black;
+	font-family: 'Oswald', sans-serif;
+	padding-left: 5px;
+}
+.project-articleBottom .nav-project ul .project-showAll {color: orange;}
+
+.project-articleBottom .project-allProject {width: 865px; overflow: hidden;}
+.project-articleBottom .project-allProject .project-project1 {
+	width: 288px;
+	float: left;
+	padding: 10px 9px 10px 0px;
+	margin-top: 10px;
+}
+.project-articleBottom .project-allProject .project-project1 img {width: 270px; height: 170px;}
+.project-articleBottom .project-allProject .project-project1 h4 {margin: 10px 0 15px 0; color: black;}
+.project-articleBottom .project-allProject .project-project1 p {font-size: 13px; padding: 0 0 15px 0;}
+.project-articleBottom .project-allProject .project-project1 a {
+	font-size: 12px; 
+	color: white; 
+	background-color: orange; 
+	padding: 8px 10px;
+	font-family: 'Oswald', sans-serif;
+	text-decoration: none;
+}
+.project-articleBottom .project-allProject .project-project2 {
+	width: 271px;
+	float: right;
+	padding: 10px 0px 10px 0px;
+	margin-top: 10px;
+}
+.project-articleBottom .project-allProject .project-project2 img {width: 270px; height: 170px;}
+.project-articleBottom .project-allProject .project-project2 h4 {margin: 10px 0 15px 0; color: black;}
+.project-articleBottom .project-allProject .project-project2 p {font-size: 13px; padding: 0 0 15px 0;}
+.project-articleBottom .project-allProject .project-project2 a {
+	font-size: 12px; 
+	color: white; 
+	background-color: orange; 
+	padding: 8px 10px;
+	font-family: 'Oswald', sans-serif;
+	text-decoration: none;
+}
+/*END OF ARTICLE PROJECT*/
+
+
+
+/*ARTICLE CONTACT US*/
+#content-contacts {
+	width: 935px;
+	height: 830px;
+	overflow: hidden;
+	background-image: url(images/content-holder-bg.png);
+}
+#contacts-article {width: 865px; margin: auto;}
+.contacts-articleTop {width: 865px;}
+.contacts-articleTop h3 {color: black; margin: 10px 0 10px 0}
+.contacts-articleTop ul {display: flex; background-color: silver}
+.contacts-articleTop ul li {list-style: none; padding: 5px;}
+.contacts-articleTop a {
+	text-decoration: none;
+	color: grey;
+	font-size: 12px;
+}
+.contacts-articleTop .contacts-articleTop-color {color: orange;}
+
+.contacts-articleBottom {width: 865px;}
+.contacts-articleBottom .contacts-Top iframe {margin: 40px 0 40px 0}
+
+.contacts-articleBottom .contacts-Bottom {width: 865px; overflow: hidden;}
+.contacts-articleBottom .contacts-Bottom .contacts-Left {width: 300px; float: left; margin-right: 30px;}
+.contacts-articleBottom .contacts-Bottom .contacts-Left h2 {color: black; margin-bottom: 15px;}
+.contacts-articleBottom .contacts-Bottom .contacts-Left h4 {font-size: 13px; color: black; margin-bottom: 10px;}
+.contacts-articleBottom .contacts-Bottom .contacts-Left p {font-size: 12px;}
+.contacts-articleBottom .contacts-Bottom .contacts-Left a {color: orange; text-decoration: none;}
+
+.contacts-articleBottom .contacts-Bottom .contacts-Right {width: 535px; float: right;}
+.contacts-articleBottom .contacts-Bottom .contacts-Right h2 {color: black; margin-bottom: 15px;}
+.contacts-articleBottom .contacts-Bottom .contacts-Right .text {
+	width: 163px;
+	height: 35px;
+	margin-bottom: 20px;
+	margin-right: 10px;
+	box-shadow: 0px 0px 1px 0px silver;
+	color: silver;
+}
+.contacts-articleBottom .contacts-Bottom .contacts-Right textarea {
+	width: 523px;
+	height: 150px;
+	margin-bottom: 15px;
+	box-shadow: 0px 0px 1px 0px silver;
+	color: silver;
+}
+.contacts-articleBottom .contacts-Bottom .contacts-Right .kirim {
+	width: 100px;
+	height: 35px;
+	background-color: orange;
+	color: white;
+	border: none;
+	margin-right: 10px;
+}
+
+
+
+
+
+
+
+/*FOOTER*/
+#footer {width: 935px; background-color: #4a4a4a; overflow: hidden;}
+.footerTop {width: 565px; margin: auto; overflow: hidden;}
+.footerTop ul {list-style: none;}
+.footerTop ul li {float: left; padding: 15px 15px 15px 15px;}
+.footerBottom h2 {font-size: 15px; margin-bottom: 15px;}
+
+.footerBottom {width: 935px; border-top: 1px solid silver;}
+
+.footerBottomContent1 {width: 205px; height : 104px; float: left; padding-right: 15px; margin: 25px 0px 20px 40px; border-right: 1px solid grey;}
+.footerBottomContent1 .logoFooter {
+	font-family: 'Oswald', sans-serif;
+	font-size: 15px;
+	color: #a9a9a9;
+}
+.footerBottomContent1 .logoFooter .span {color: #ffa322;}
+.footerBottomContent1 p {font-size: 10px;}
+
+.footerBottomContent2 {width: 200px; float: left; padding-left: 15px; margin-top: 25px; border-right: 1px solid grey;}
+.footerBottomContent2 ul {list-style: none;}
+.footerBottomContent2 ul li {font-size: 10px;}
+.footerBottomContent2 ul li a {
+	text-decoration: none;
+	color: grey;
+}
+
+.footerBottomContent3 {width: 200px; float: left; padding-left: 15px; margin-top: 25px; border-right: 1px solid grey;}
+.footerBottomContent3 ul {list-style: none;}
+.footerBottomContent3 ul li {font-size: 10px;}
+.footerBottomContent3 ul li a {
+	text-decoration: none;
+	color: grey;
+}
+
+.footerBottomContent4 {width: 200px; float: left; padding-left: 15px; margin-top: 25px;}
+.footerBottomContent4 p {font-size: 10px;}
+.footerBottomContent4 p a {color: orange; text-decoration: none;}
+/* END OF FOOTER */

@@ -1,0 +1,214 @@
+@charset "utf-8";
+/*CSS Document*/
+
+* {margin: 0; padding: 0;}
+body {
+	background-image: url(images/bg.jpg);
+	font-family: arial, helvetica, sans-serif;
+	color: #666;
+}
+#wrapper {
+	width: 935px;
+	margin: 0 auto 0 auto;
+}
+
+#header {width: 935px; background-color: #4a4a4a; overflow: hidden; height: 180px; position: relative;}
+#subHeader {width: 865px; margin: auto;}
+
+#headerLeft {width: 200px; float: left; display: block;}
+#headerLeft h1 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 45px;
+	color: #a9a9a9;
+	padding-left: 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+#headerLeft h1 .span {color: #ffa322;}
+
+#headerRight {
+	width: 200px;
+	float: right; 
+	display: block;
+	padding-top: 28px;
+	padding-bottom: 10px;
+}
+#headerRight a {
+	font-family: 'Oswald', sans-serif; 
+	font-size: 15px;
+	text-decoration: none;
+	color: #ffa322;
+}
+#headerRight p {color: #a9a9a9; font-family: arial, serif; font-size: 12px;}
+#headerRight p .span {color: #ffa322;}
+
+#nav {
+	width: 865px;
+	margin: auto;
+	background-color: #ff8f0b;
+	position: absolute;
+	bottom: 38px;
+	left: 31px;
+}
+#nav ul {list-style: none; display: flex;}
+#nav ul li {margin: auto;}
+#nav ul li a {
+	font-size: 12px;
+	text-decoration: none;
+	color: black;
+	font-family: 'Oswald', sans-serif;
+	padding: 15px 20px 15px 20px; 
+	display: block;
+}
+#nav ul li a:hover {color: white;}
+#nav ul li .main-page {color: white;}
+
+#content {
+	width: 935px; 
+	overflow: hidden;
+	background-image: url(images/content-holder-bg.png);
+}
+
+#slider img {width: 865px; padding: 10px 30px 20px 30px;}
+
+
+
+#product {width: 865px; margin: auto;}
+.garis {width: 865px; margin: auto;}
+.garis .garis1 {
+	border: 1px solid silver;
+	width: 335px;
+	float: left;
+}
+.garis .garis2 {
+	border: 1px solid silver;
+	width: 335px;
+	float: right;
+	position: relative;
+	bottom: 22px;
+}
+.garis h3 {text-align: center; position: relative; bottom: 11px; right: 168px;}
+
+.border {width: 858px; border: 5px solid silver;}
+.inline {display: flex;}
+.border .product1 {
+	width: 251px;
+	background: white;
+	padding: 15px 5px 5px 5px; 
+	border: 1px solid silver;
+}
+.border .product1 span {
+	color: white; 
+	background-color: silver; 
+	border-radius: 25px 25px 25px 25px; 
+	padding: 5px 10px;
+	font-size: 20px;
+	text-align: center;
+}
+.border .product1 h2 {text-align: center; font-size: 16px; color: black; font-weight: bold;}
+
+
+.border .product2 h6 {color: orange; padding: 15px 10px 10px 10px; border-right: 1px solid silver}
+.border .product2 p {font-size: 12px; padding: 5px 10px 30px 10px; border-right: 1px solid silver}
+
+.article {width: 865px; overflow: hidden; margin-bottom: 20px;}
+.article .articleLeft {width: 650px; float: left; margin-top: 50px; margin-bottom: 10px;}
+.article .articleLeft .articleLeftTop {padding: 5px 0px 5px 10px; background: silver; display: flex;}
+.article .articleLeft .articleLeftTop p {
+	width: 505px; 
+	font-family: 'Oswald', sans-serif;
+}
+.article .articleLeft .articleLeftTop a {
+	background: orange; 
+	padding: 5px 10px 5px 10px; 
+	float: right;
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+}
+
+.article .articleLeft .articleLeftBottom {height: 315px;margin-top: 30px;}
+.article .articleLeft .articleLeftBottom .project1 {
+	width: 200px;
+	background-color: white;
+	float: left;
+	margin-right: 15px;
+}
+.article .articleLeft .articleLeftBottom .project1 img {padding-bottom: 20px;}
+.article .articleLeft .articleLeftBottom .project1 a {
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	font-family: font-family: 'Oswald', sans-serif;
+}
+.article .articleLeft .articleLeftBottom .project1 p {
+	margin-top: 10px;
+	padding-bottom: 20px;
+}
+#more a {
+	background-color: orange;
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	padding: 15px;
+	font-size: 13px;
+}
+
+hr {margin: 5px 0 5px 0;}
+
+
+.article .articleRight {width: 200px; height: 375px; float: right; background: silver; margin-top: 50px;}
+.article .articleRight .Testimoni {background-color: white; margin: 5px 5px 30px 5px;}
+.article .articleRight .Testimoni p {
+	font-family: 'Oswald', sans-serif;
+	text-align: center; 
+	color: black;
+	font-size: 17px;
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+.article .articleRight p {width: 200px; font-size: 13px; text-align: center; margin: auto;}
+.article .articleRight a {
+	text-decoration: none;
+	color: black;
+	font-size: 11px;
+	text-align: center;
+}
+.tes {width: 155px; margin: auto; margin-top: 20px; margin-bottom: 20px;}
+
+
+#footer {width: 935px; background-color: #4a4a4a; overflow: hidden;}
+.footerTop {width: 565px; margin: auto; overflow: hidden;}
+.footerTop ul {list-style: none;}
+.footerTop ul li {float: left; padding: 15px 15px 15px 15px;}
+.footerBottom h2 {font-size: 15px; margin-bottom: 15px;}
+
+.footerBottom {width: 935px; border-top: 1px solid silver;}
+
+.footerBottomContent1 {width: 205px; height : 104px; float: left; padding-right: 15px; margin: 25px 0px 20px 40px; border-right: 1px solid grey;}
+.footerBottomContent1 .logoFooter {
+	font-family: 'Oswald', sans-serif;
+	font-size: 15px;
+	color: #a9a9a9;
+}
+.footerBottomContent1 .logoFooter .span {color: #ffa322;}
+.footerBottomContent1 p {font-size: 10px;}
+
+.footerBottomContent2 {width: 200px; float: left; padding-left: 15px; margin-top: 25px; border-right: 1px solid grey;}
+.footerBottomContent2 ul {list-style: none;}
+.footerBottomContent2 ul li {font-size: 10px;}
+.footerBottomContent2 ul li a {
+	text-decoration: none;
+	color: grey;
+}
+
+.footerBottomContent3 {width: 200px; float: left; padding-left: 15px; margin-top: 25px; border-right: 1px solid grey;}
+.footerBottomContent3 ul {list-style: none;}
+.footerBottomContent3 ul li {font-size: 10px;}
+.footerBottomContent3 ul li a {
+	text-decoration: none;
+	color: grey;
+}
+
+.footerBottomContent4 {width: 200px; float: left; padding-left: 15px; margin-top: 25px;}
+.footerBottomContent4 p {font-size: 10px;}
